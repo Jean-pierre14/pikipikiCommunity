@@ -1,16 +1,6 @@
-/*-----------------------------------------------------------------------------
-
--	Revolution Slider 5.0 Layer Style Settings -
-
-Screen Stylesheet
-
-version:   	5.0.0
-date:      	18/03/15
-author:		themepunch
-email:     	info@themepunch.com
-website:   	http://www.themepunch.com
------------------------------------------------------------------------------*/
-
+:root{
+    --jaune: #faff00;
+}
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -19,12 +9,12 @@ website:   	http://www.themepunch.com
 
 .tp-caption.Twitter-Content a,.tp-caption.Twitter-Content a:visited
 {
-	color:#0084B4!important;
+	color:var(--jaune)!important;
 }
 
 .tp-caption.Twitter-Content a:hover
 {
-	color:#0084B4!important;
+	color:var(--jaune)!important;
 	text-decoration:underline!important;
 }
 
@@ -3106,10 +3096,10 @@ website:   	http://www.themepunch.com
 
 .tp-caption.Twitter-Content a,
     .tp-caption.Twitter-Content a:visited {
-        color: #0084B4 !important
+        color: var(--jaune) !important
     }
     .tp-caption.Twitter-Content a:hover {
-        color: #0084B4 !important;
+        color: var(--jaune) !important;
         text-decoration: underline !important
     }
     .tp-caption.Concept-Title,
@@ -3342,10 +3332,10 @@ website:   	http://www.themepunch.com
 
     .tp-caption.Twitter-Content a,
     .tp-caption.Twitter-Content a:visited {
-        color: #0084B4 !important
+        color: var(--jaune) !important
     }
     .tp-caption.Twitter-Content a:hover {
-        color: #0084B4 !important;
+        color: var(--jaune) !important;
         text-decoration: underline !important
     }
     .tp-caption.Creative-Title,
@@ -4916,10 +4906,10 @@ tp-caption.Team-Thumb,
 }
 .tp-caption.Twitter-Content a,
 .tp-caption.Twitter-Content a:visited {
-    color: #0084B4 !important
+    color: var(--jaune) !important
 }
 .tp-caption.Twitter-Content a:hover {
-    color: #0084B4 !important;
+    color: var(--jaune) !important;
     text-decoration: underline !important
 }
 .tp-caption.CreativeFrontPage-Btn,
@@ -4974,10 +4964,10 @@ tp-caption.Team-Thumb,
 }
 .tp-caption.Twitter-Content a,
 .tp-caption.Twitter-Content a:visited {
-    color: #0084B4 !important
+    color: var(--jaune) !important
 }
 .tp-caption.Twitter-Content a:hover {
-    color: #0084B4 !important;
+    color: var(--jaune) !important;
     text-decoration: underline !important
 }
 .tp-caption.FullScreenMenu-Category,
@@ -5017,10 +5007,10 @@ tp-caption.Team-Thumb,
 }
 .tp-caption.Twitter-Content a,
 .tp-caption.Twitter-Content a:visited {
-    color: #0084B4 !important
+    color: var(--jaune) !important
 }
 .tp-caption.Twitter-Content a:hover {
-    color: #0084B4 !important;
+    color: var(--jaune) !important;
     text-decoration: underline !important
 }
 .tp-caption.TechJournal-Button,
@@ -5083,10 +5073,10 @@ tp-caption.Team-Thumb,
 
 .tp-caption.Twitter-Content a,
     .tp-caption.Twitter-Content a:visited {
-        color: #0084B4 !important
+        color: var(--jaune) !important
     }
     .tp-caption.Twitter-Content a:hover {
-        color: #0084B4 !important;
+        color: var(--jaune) !important;
         text-decoration: underline !important
     }
     #menu_forcefullwidth {
@@ -5625,10 +5615,10 @@ tp-caption.Team-Thumb,
 
         .tp-caption.Twitter-Content a,
     .tp-caption.Twitter-Content a:visited {
-        color: #0084B4 !important
+        color: var(--jaune) !important
     }
     .tp-caption.Twitter-Content a:hover {
-        color: #0084B4 !important;
+        color: var(--jaune) !important;
         text-decoration: underline !important
     }
     #menu_forcefullwidth {

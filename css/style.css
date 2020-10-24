@@ -1,39 +1,4 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Rocky
-@URL: http://wethemez.com
-Author E-mail: rockybd1995@gmail.com
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Cerative Agency
-@Author: Rocky
-@Developed By: Rocky
-@Developer URL: http://rocky.wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-@Default Styles
-
-Table of Content:
-01/ Variables
-02/ predefin
-03/ header
-04/ banner
-05/ slider
-06/ feature
-07/ button
-08/ service
-09/ testimonials 
-10/ blog 
-11/ contact 
-12/ footer 
-=====================================================================*/
-/*----------------------------------------------------*/
-/*font Variables*/
-/*Color Variables*/
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,900");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700");
 .col-md-offset-right-1, .col-lg-offset-right-1 {
@@ -417,21 +382,21 @@ i:before {
 .main_slider_area .rev_slider .tp-bullets .tp-bullet {
   height: 10px;
   width: 10px;
-  background: #b3adff;
+  background: #eee;
   border: 5px solid #fff;
 }
 
 .main_slider_area .rev_slider .tp-bullets .tp-bullet.selected {
-  background: #97cdfe;
-  border-color: #97cdfe;
+  background: #fff;
+  border-color: #fff;
 }
 
 .main_slider_area .rev_slider .tp-leftarrow, .main_slider_area .rev_slider .tp-rightarrow {
   height: 120px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#faff00), color-stop(51%, #ccc), to(#70bafe));
-  background-image: -webkit-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
-  background-image: -o-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
-  background-image: linear-gradient(to right, #70bafe 0%, #998dff 51%, #70bafe 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#faff00), color-stop(51%, #ccc), to(#faff00));
+  background-image: -webkit-linear-gradient(left, #faff00 0%, #ccc 51%, #faff00 100%);
+  background-image: -o-linear-gradient(left, #faff00 0%, #ccc 51%, #faff00 100%);
+  background-image: linear-gradient(to right, #faff00 0%, #ccc 51%, #faff00 100%);
   background-size: 200% auto;
   width: 138px;
   border: 10px solid rgba(204, 241, 255, 0.5);
@@ -656,10 +621,10 @@ i:before {
 
 .service_feature .feature_inner .feature_item:hover .more_btn {
   color: #fff;
-  background-image: -webkit-gradient(linear, left top, right top, from(#70bafe), color-stop(51%, #998dff), to(#70bafe));
-  background-image: -webkit-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
-  background-image: -o-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
-  background-image: linear-gradient(to right, #70bafe 0%, #998dff 51%, #70bafe 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#faff00), color-stop(51%, #ccc), to(#faff00));
+  background-image: -webkit-linear-gradient(left, #faff00 0%, #ccc 51%, #faff00 100%);
+  background-image: -o-linear-gradient(left, #faff00 0%, #ccc 51%, #faff00 100%);
+  background-image: linear-gradient(to right, #faff00 0%, #ccc 51%, #faff00 100%);
   border-color: rgba(204, 241, 255, 0.5);
   background-clip: inherit;
 }
@@ -1264,10 +1229,10 @@ i:before {
 ============================================================================================ */
 .more_btn {
   padding: 0px 46px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#6fbcfe), color-stop(51%, #998dff), to(#6fbcfe));
-  background-image: -webkit-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
-  background-image: -o-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
-  background-image: linear-gradient(to right, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#6fbcfe), color-stop(51%, #ccc), to(#6fbcfe));
+  background-image: -webkit-linear-gradient(left, #6fbcfe 0%, #ccc 51%, #6fbcfe 100%);
+  background-image: -o-linear-gradient(left, #6fbcfe 0%, #ccc 51%, #6fbcfe 100%);
+  background-image: linear-gradient(to right, #6fbcfe 0%, #ccc 51%, #6fbcfe 100%);
   background-size: 200% auto;
   z-index: 2;
   display: inline-block;
@@ -1289,10 +1254,10 @@ i:before {
 }
 
 .submit_btn {
-  background-image: -webkit-gradient(linear, left top, right top, from(#70bafe), color-stop(51%, #998dff), to(#70bafe));
-  background-image: -webkit-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
-  background-image: -o-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
-  background-image: linear-gradient(to right, #70bafe 0%, #998dff 51%, #70bafe 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#faff00), color-stop(51%, #ccc), to(#faff00));
+  background-image: -webkit-linear-gradient(left, #faff00 0%, #ccc 51%, #faff00 100%);
+  background-image: -o-linear-gradient(left, #faff00 0%, #ccc 51%, #faff00 100%);
+  background-image: linear-gradient(to right, #faff00 0%, #ccc 51%, #faff00 100%);
   background-size: 200% auto;
   z-index: 2;
   width: 176px;
